@@ -9,10 +9,10 @@ The dataset used in this project contains information about taxi rides in New Yo
 
 Before building the linear regression model, the dataset underwent some preprocessing steps. These included:
 
-*Removing rows with missing values
-*Removing rows with fare amount less than $2.5 or greater than $200 (to remove outliers)
-*Removing rows with passenger count less than 1 or greater than 6 (to remove outliers)
-*Converting the pickup datetime to separate columns for year, month, day, hour, and minute.
+* Removing rows with missing values
+* Removing rows with fare amount less than $2.5 or greater than $200 (to remove outliers)
+* Removing rows with passenger count less than 1 or greater than 6 (to remove outliers)
+* Converting the pickup datetime to separate columns for year, month, day, hour, and minute.
 
 
 ## Model Building
